@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>My Online Resume</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+                body {
+                        font-family: Arial, sans-serif;
+                        background-color: #F8F4FC;
+                        margin: 10;
+                        padding: 0;
+            text-align: center;
+                }
+                header {
+                        background-color: #9587BB;
+                        color: #fff;
+                        padding: 20px;
+                        text-align: center;
+                }
+                h1 {
+                        margin-top: 0;
+                }
+                .container {
+                        max-width: 800px;
+                        margin: 20px auto;
+                        padding: 20px;
+                        background-color: #fff;
+                        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                }
+                ul {
+                        list-style: none;
+                        padding: 0;
+                }
+                li {
+                        margin-bottom: 10px;
+                }
+                .section-title {
+                        margin-bottom: 10px;
+                        font-size: 18px;
+                        font-weight: bold;
+                }
+                .skill-bar {
+                        background-color: #ddd;
+                        height: 10px;
+                        margin-bottom: 10px;
+                }
+                .skill-bar-fill {
+                        background-color: #333;
+                        height: 100%;
+                        width: 60%;
+                }
+                .photo {
+                        display: block;
+                        max-width: 100%;
+                        height: auto;
+                        margin-bottom: 10px;
+                        margin-left: auto;
+                        margin-right: auto;
+                }
+        </style>
+  </head>
+  <body>
+    <header>
+      <h1>Andrea Zerbe</h1>
+      <p>Minneapolis, MN</p>
+      <p>Phone: (952) 451-2301 | Email: andreazerbs@gmail.com</p>
+      <a href="https://www.linkedin.com/in/andrea-zerbe/" class="linkedin"><img src="https://drive.google.com/uc?export=view&id=14GW-oOoadlMxUGs5FvKkgGkrihtkFyUh" alt="LinkedIn logo" height="45px"></a>
+    </header>
+    <li><img class="photo" src="https://images.immediate.co.uk/production/volatile/sites/4/2021/08/mountains-7ddde89.jpg?quality=90&webp=true&resize=940,400" alt="mountains"></li>
+    <hr>
+    <section class="section">
+      <h2 class="section-header">Summary</h2>
+      <p class="section-content">
+        Diligent, smart, and resourceful team player with a cyber security certification from the University of Minnesota and a bachelor's degree from the University of Colorado Boulder. 6 months of trouble shooting experience and excited to continue my learning through tackling daunting challenges in the immense cybersecurity industry. A natural leader with experience in military, business ownership, health sciences, professional athletics and customer service. Driven to learn and grow in a fast paced organization.
+      </p>
+    </section>
+    <hr>
+    <section class="section">
+      <h2 class="section-header">Certifications</h2>
+      <ul class="section-content">
+        <li>Certified Strength and Conditioning Specialist (CSCS): National Strength and Conditioning Association (NSCA)</li>
+        <li>Level 1 USA Climbing Routesetter: USA Climbing</li>
+        <li>Lifeguard/First Aid/CPR/AED: American Red Cross</li>
+      </ul>
+    </section>
+    <hr>
+    <section class="section">
+      <h2 class="section-header">Technical Skills</h2>
+      <ul class="section-content">
+        <li>Programming Languages and Technologies: Terminal/bash, JavaScript, HTML, SQL, ChatGPT, AI prompt engineering, Windows OS, Mac OS, Linux OS, Screaming Frog SEO Spider, SEMRUSH,Wireshark, Kali Linux, John the Ripper, Aircrack-ng, Splunk, Snort</li>
+        <li>Cybersecurity and Networking: Network Security, Vulnerability Management, Information Assurance, Security Information and Event Management (SIEM), Threat & Vulnerability Management, Linux, Malware Analysis, Penetration Testing, Cloud Security, Cryptography, Web Development, Digital Forensics</li>
+      </ul>
+    </section>
+    <hr>
+    <section class="section">
+      <h2 class="section-header">Experience</h2>
+      <h3 class="section-content">Sports Performance Coach • Andrea Zerbe Performance Coaching (AZPC) • Feb 2021 – Current</h3>
+      <p class="section-content">
+        A small business that I founded based on a modern and more accessible approach to helping athletes achieve their performance goals and lower the risk of injury. Using organization skills, PaaS web development, management, research, and marketing I have created a profitable and fully online training business.
+      <h3 class="section-content">Sports Performance Coach • North South Consulting Group • September 2021 - December 2021</h3>
+      <p class="section-content">
+        Strength coach working with the United States Military managing physical training and physical education of entire brigades. Wrote programs, tested soldiers, implemented and organized training, analyzed large cohorts of data and while working with a full sports medicine team. Through the use of empathetic leadership I received an honor award within 3 weeks for soldier and brigade leadership compliance.
+      <h3 class="section-content">Sports Performance Coach • USA Curling/Training HAUS • September 2020 - December 2020</h3>
+      <p class="section-content">
+        Strength and Conditioning Coach working with Head Sports Performance Coach for all teams under USA Curling and at Training HAUS. Teams include but are not limited to; USA Olympic curling, NHL, AHL, and NFL athletes. Ran training sessions, tested sport performance, improved programming skills, and transferred large amounts of data.
+      <h3 class="section-content">Swim Coach • Flatiron Swimming and YMCA • June 2018 - December 2019</h3>
+      <p class="section-content">
+        Recruited assistant coach for YMCA summer league (2018) and Flatirons Swim Club. Certified USA Swim coach that mentored athletes ages 6-19 within a highly competitive swim club.
+    </section>
+    <hr>
+    <section class="section">
+      <h2 class="section-header">Education</h2>
+      <h3 class="section-content">
+       Boot Camp Certificate: University of Minnesota, Minneapolis, MN</h3>
+      <p class="section-content">
+       Immersive 24-week cybersecurity boot camp. Skills and troubleshooting experience in Kali Linux, Windows OS, Wireshark, Snort, Splunk, Aircrack-ng, John the Ripper. Training towards Security+, Network+, and CISSP certifications.
+
+      <h3 class="section-content">
+       Bachelors of Science and Art: University of Colorado Boulder, Boulder, CO</h3>
+      <p class="section-content">
+       Integrative Physiology major with extensive and comprehensive STEM skills and experience. Collegiate athlete representing the university in both swimming and rock climbing.
+      </p>
+    </section>
+    <hr>
+    <body>
+    <html>
